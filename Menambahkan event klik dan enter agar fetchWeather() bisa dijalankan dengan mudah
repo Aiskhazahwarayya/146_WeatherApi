@@ -1,0 +1,9 @@
+            $("#cekCuacaBtn").on("click", function() {
+                fetchWeather();
+            });
+            
+            $("#lokasiInput").on("keypress", function(e) {
+                if (e.which === 13) { 
+                    fetchWeather();
+                }
+            });
