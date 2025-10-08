@@ -1,0 +1,30 @@
+<div class="weather-card">
+    <div class="search-box">
+        <input type="text" id="lokasiInput" placeholder="Masukkan nama kota...">
+        <button id="cekCuacaBtn">Cek</button>
+    </div>
+
+    <div class="loading">
+        <p>Mencari data cuaca...</p>
+    </div>
+
+    <div class="error">
+        <p>Lokasi tidak ditemukan. Coba lagi.</p>
+    </div>
+
+    <div class="weather-info">
+        <div class="weather-main">
+            <img id="iconCuaca" src="" alt="Weather Icon">
+            <h1 id="suhu">- °C</h1>
+            <h2 id="kondisiCuaca">-</h2>
+            <h3 id="lokasi">-</h3>
+        </div>
+        <hr>
+        <div class="weather-details">
+            <div class="detail-item"><b>Negara:</b> <span id="negara">-</span></div>
+            <div class="detail-item"><b>Provinsi:</b> <span id="provinsi">-</span></div>
+            <div class="detail-item"><b>Longitude:</b> <span id="longitude">-</span></div>
+            <div class="detail-item"><b>Latitude:</b> <span id="latitude">-</span></div>
+        </div>
+    </div>
+</div>
